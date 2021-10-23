@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
     paddingLeft: 50,
     paddingRight: 30,
     marginRight: 5,
+    color: 'black',
   },
   promoIcon: {
     height: 40,

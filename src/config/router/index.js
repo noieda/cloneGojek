@@ -27,7 +27,7 @@ class HomeStack extends Component {
       <NavigationContainer independent={true}>
         <Stack.Navigator
           screenOptions={{headerShown: false}}
-          initialRouteName="ScanQRCode">
+          initialRouteName="Home">
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="NewsDetail" component={NewsDetail} />
           <Stack.Screen name="Orders" component={Orders} />

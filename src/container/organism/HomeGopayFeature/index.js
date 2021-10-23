@@ -3,40 +3,6 @@ import {Text, StyleSheet, View, Image} from 'react-native';
 import GopayFeature from '../../../components/molecule/GopayFeature';
 import {useNavigation} from '@react-navigation/core';
 
-// class HomeGopayFeature extends Component {
-//   render() {
-//     return (
-//       <View style={styles.goPay}>
-//         <View style={styles.goPayTopBar}>
-//           <Image source={require('../../../assets/icon/gopay.png')} />
-//           <Text style={{fontWeight: 'bold', fontSize: 17, color: 'white'}}>
-//             Rp. 20000
-//           </Text>
-//         </View>
-//         <View style={styles.goPayBottomBar}>
-//           <GopayFeature
-//             goPayFeatureTitle="Pay"
-//             img={require('../../../assets/icon/pay.png')}
-//             onPress={() => this.props.navigation.navigate('ScanQRCode')}
-//           />
-//           <GopayFeature
-//             goPayFeatureTitle="Nearby"
-//             img={require('../../../assets/icon/nearby.png')}
-//           />
-//           <GopayFeature
-//             goPayFeatureTitle="Top Up"
-//             img={require('../../../assets/icon/topup.png')}
-//           />
-//           <GopayFeature
-//             goPayFeatureTitle="More"
-//             img={require('../../../assets/icon/more.png')}
-//           />
-//         </View>
-//       </View>
-//     );
-//   }
-// }
-
 const HomeGopayFeature = props => {
   const navigation = useNavigation();
 
